@@ -37,10 +37,11 @@ i would like to spend more time on data exploration finding some other corelatio
 also by playing with  presets and hyper paramerts 
 
 ### Create a table with the models you ran, the hyperparameters modified, and the kaggle score.
-| model | hpo1 | hpo2 | score |
-| add_features|  prescribed values | presests"highqualiy" | 0.4803 |
-| hpo | prescribed_values	| presets: 'high quality' | 0.4803 |
-| hpo2 | Tree-Based Models: (GBM, XT, XGB & RF) | presets:'optimize_for_deployment | 0.5289 |
+| sr.no | model        | hpo                                    | hpo2                                      | score   |
+|-------|--------------|----------------------------------------|-------------------------------------------|---------|
+| 0     | add_features | prescribed_values                      | presets: 'high quality' (auto_stack=True) | 0.48030 |
+| 1     | hpo          | prescribed_values                      | presets: 'high quality' (auto_stack=True) | 0.53395 |
+| 2     | hpo2         | Tree-Based Models: (GBM, XT, XGB & RF) | presets: 'optimize_for_deployment         | 0.52890 |
 
 ### Create a line plot showing the top model score for the three (or more) training runs during the project.
 
