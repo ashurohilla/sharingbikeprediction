@@ -40,7 +40,7 @@ also by playing with  presets and hyper paramerts
 |model|hpo1|hpo2|score|
 |add_features|prescribed values |presests"highqualiy"|0.4803|
 |hpo|prescribed_values	|presets: 'high quality'|0.4803|
-|hpo2|Tree-Based Models: (GBM, XT, XGB & RF)presets:'optimize_for_deployment|0.5289|
+|hpo2|optimize for deployment|Tree-Based Models: (GBM, XT, XGB & RF)presets:'optimize_for_deployment|0.5289|
 
 ### Create a line plot showing the top model score for the three (or more) training runs during the project.
 
